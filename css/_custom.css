@@ -1,0 +1,25 @@
+.custom-menu{
+  display: none ;
+  padding: 0px 30px 0px 100px !important;
+  margin: 0;
+}
+.scrolled .custom-menu li{
+  list-style: none;
+}
+.scrolled .custom-menu li a{
+  font-size: 20px !important;
+  color: black;
+}
+.scrolled .custom-menu .active a{
+  color: #ffba5a !important;
+}
+@media only screen and (min-width: 1000px) {
+  .scrolled .custom-menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .scrolled .switch{
+    display: none;
+  }
+}
