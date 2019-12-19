@@ -23,3 +23,10 @@
     display: none;
   }
 }
+.btn {
+  padding-left: 40px;
+	padding-right: 50px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	border-radius: 15px;
+}
